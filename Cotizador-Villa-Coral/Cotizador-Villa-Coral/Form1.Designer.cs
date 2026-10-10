@@ -38,16 +38,16 @@
             btnCalcular = new Button();
             btnLimpiar = new Button();
             gbCotizacion = new GroupBox();
+            lblTOTALn = new Label();
+            lblServicioN = new Label();
+            lblITBISn = new Label();
+            lblDescuentoN = new Label();
+            lblSubtotalN = new Label();
+            lblTOTAL = new Label();
             lblSubTotal = new Label();
             lblDescuento = new Label();
             lblITBIS = new Label();
             lblServicio = new Label();
-            lblTOTAL = new Label();
-            lblSubtotalN = new Label();
-            lblDescuentoN = new Label();
-            lblITBISn = new Label();
-            lblServicioN = new Label();
-            lblTOTALn = new Label();
             ((System.ComponentModel.ISupportInitialize)nudNoches).BeginInit();
             gbCotizacion.SuspendLayout();
             SuspendLayout();
@@ -149,6 +149,62 @@
             gbCotizacion.Text = "Cotizacion";
             gbCotizacion.Enter += groupBox1_Enter;
             // 
+            // lblTOTALn
+            // 
+            lblTOTALn.AutoSize = true;
+            lblTOTALn.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTOTALn.Location = new Point(332, 185);
+            lblTOTALn.Name = "lblTOTALn";
+            lblTOTALn.Size = new Size(47, 25);
+            lblTOTALn.TabIndex = 19;
+            lblTOTALn.Text = "0.00";
+            // 
+            // lblServicioN
+            // 
+            lblServicioN.AutoSize = true;
+            lblServicioN.Location = new Point(332, 147);
+            lblServicioN.Name = "lblServicioN";
+            lblServicioN.Size = new Size(36, 20);
+            lblServicioN.TabIndex = 18;
+            lblServicioN.Text = "0.00";
+            // 
+            // lblITBISn
+            // 
+            lblITBISn.AutoSize = true;
+            lblITBISn.Location = new Point(332, 113);
+            lblITBISn.Name = "lblITBISn";
+            lblITBISn.Size = new Size(36, 20);
+            lblITBISn.TabIndex = 17;
+            lblITBISn.Text = "0.00";
+            // 
+            // lblDescuentoN
+            // 
+            lblDescuentoN.AutoSize = true;
+            lblDescuentoN.Location = new Point(332, 75);
+            lblDescuentoN.Name = "lblDescuentoN";
+            lblDescuentoN.Size = new Size(36, 20);
+            lblDescuentoN.TabIndex = 16;
+            lblDescuentoN.Text = "0.00";
+            // 
+            // lblSubtotalN
+            // 
+            lblSubtotalN.AutoSize = true;
+            lblSubtotalN.Location = new Point(332, 41);
+            lblSubtotalN.Name = "lblSubtotalN";
+            lblSubtotalN.Size = new Size(36, 20);
+            lblSubtotalN.TabIndex = 15;
+            lblSubtotalN.Text = "0.00";
+            // 
+            // lblTOTAL
+            // 
+            lblTOTAL.AutoSize = true;
+            lblTOTAL.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTOTAL.Location = new Point(15, 185);
+            lblTOTAL.Name = "lblTOTAL";
+            lblTOTAL.Size = new Size(67, 25);
+            lblTOTAL.TabIndex = 14;
+            lblTOTAL.Text = "TOTAL";
+            // 
             // lblSubTotal
             // 
             lblSubTotal.AutoSize = true;
@@ -185,67 +241,11 @@
             lblServicio.TabIndex = 13;
             lblServicio.Text = "Servicio 10%";
             // 
-            // lblTOTAL
-            // 
-            lblTOTAL.AutoSize = true;
-            lblTOTAL.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTOTAL.Location = new Point(15, 185);
-            lblTOTAL.Name = "lblTOTAL";
-            lblTOTAL.Size = new Size(67, 25);
-            lblTOTAL.TabIndex = 14;
-            lblTOTAL.Text = "TOTAL";
-            // 
-            // lblSubtotalN
-            // 
-            lblSubtotalN.AutoSize = true;
-            lblSubtotalN.Location = new Point(332, 41);
-            lblSubtotalN.Name = "lblSubtotalN";
-            lblSubtotalN.Size = new Size(36, 20);
-            lblSubtotalN.TabIndex = 15;
-            lblSubtotalN.Text = "0.00";
-            // 
-            // lblDescuentoN
-            // 
-            lblDescuentoN.AutoSize = true;
-            lblDescuentoN.Location = new Point(332, 75);
-            lblDescuentoN.Name = "lblDescuentoN";
-            lblDescuentoN.Size = new Size(36, 20);
-            lblDescuentoN.TabIndex = 16;
-            lblDescuentoN.Text = "0.00";
-            // 
-            // lblITBISn
-            // 
-            lblITBISn.AutoSize = true;
-            lblITBISn.Location = new Point(332, 113);
-            lblITBISn.Name = "lblITBISn";
-            lblITBISn.Size = new Size(36, 20);
-            lblITBISn.TabIndex = 17;
-            lblITBISn.Text = "0.00";
-            // 
-            // lblServicioN
-            // 
-            lblServicioN.AutoSize = true;
-            lblServicioN.Location = new Point(332, 147);
-            lblServicioN.Name = "lblServicioN";
-            lblServicioN.Size = new Size(36, 20);
-            lblServicioN.TabIndex = 18;
-            lblServicioN.Text = "0.00";
-            // 
-            // lblTOTALn
-            // 
-            lblTOTALn.AutoSize = true;
-            lblTOTALn.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTOTALn.Location = new Point(332, 185);
-            lblTOTALn.Name = "lblTOTALn";
-            lblTOTALn.Size = new Size(47, 25);
-            lblTOTALn.TabIndex = 19;
-            lblTOTALn.Text = "0.00";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(544, 554);
+            ClientSize = new Size(527, 554);
             Controls.Add(gbCotizacion);
             Controls.Add(btnLimpiar);
             Controls.Add(btnCalcular);
